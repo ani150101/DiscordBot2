@@ -1,0 +1,26 @@
+{
+  "name": "eaglebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "nodemonConfig": {
+    "ignore": [
+      "config/config.json",
+      "README.md"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "ms": "^2.1.2",
+    "nodemon": "^2.0.5"
+  }
+}
